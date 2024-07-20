@@ -1,0 +1,4 @@
+(RUS)Этот калькулятор написан для души и проверки навыков. Может вычислять следующее: сумму, разность, произведение, деление, степень, деление с остатком, корень и  проценты. Основная часть написана на PHP, взаимодействие с пользователем осуществляется как при помощи клавиатуры так и путем нажатия на кнопки, поведение которых задано на  JS. Надеюсь что вам понравится. Приятного пользования!
+
+
+(EN)This calculator is written for the soul and to test my skills. It can calculate the following: sum, difference, product, division, degree, division with remainder, root and percent. The main part is written in PHP, the interaction with the user is done both by keyboard and by clicking on buttons, the behavior of which is set in JS. I hope you like it. Enjoy using it!

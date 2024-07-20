@@ -1,0 +1,79 @@
+.admin_page{
+    padding: 2%;
+    background-color: #e5decf;
+    margin: 2%;
+    border-radius: 20px;
+    border:2px solid #e5decf; 
+    box-shadow: 0 7px 9px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    width: 95%;
+    display: flex;
+    text-align: center;
+    font-weight: bolder;
+}
+.admin_buttons{
+background-color: white;
+padding: 20px;
+border-radius: 20px;
+border: 2px solid white;
+margin-right: 2%;
+width: 20%;
+display: block;
+box-shadow: 0 7px 9px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.admin_result{
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 80%;
+    height: 80%;
+    box-shadow: 0 7px 9px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.ul_buttons{
+    background-color: white;
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+.li_buttons
+{
+    background-color: white;
+    text-decoration: none;
+    display: list-item;
+    margin-top: 5%;
+}
+.button_click{
+    font-weight: 500;
+    background-color: #8da683;
+    padding: 5%;
+    height: 60%;
+    width: 80%;
+    border: 2px solid #8da683;
+    border-radius: 20px;
+    box-shadow: 0 7px 9px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.admin_table{
+    background-color: white;
+    border-radius: 20px;
+    padding: 0.5%;
+    box-shadow: 0 7px 9px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.admin_th{
+   
+    background-color: white;
+    box-shadow: 0 7px 9px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 20px;
+    padding: 0.5%;
+    text-align: center;
+    width: 2%;
+}
+.admin_tr{
+    padding: 2%;
+    border: 2px solid white;
+    background-color: white;
+}
+.admin_td{
+    padding: 0.5%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 7px 9px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}

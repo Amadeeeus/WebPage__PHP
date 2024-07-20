@@ -1,0 +1,82 @@
+.loginform1{
+    background-color: white;
+    display: flex;
+    height: 0.5%;
+    width: 15%;
+    padding: 0.2% 0.1%;
+    border-radius: 20px;
+    justify-content: center;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    margin-left: 14%;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.4) ;
+    text-align: center;
+}
+.form_login{
+    background-color: white;
+}
+.login_tbody{
+    background-color: white;
+    border-radius: 20px;
+}
+.buttonlogin{
+    background-color: #8da683;
+    border: #8da683 1px solid;
+    margin: 0.5%;
+    height: 10%;
+    border-radius: 10px;
+    padding: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.4) ;
+}
+.buttonlogin:active{
+    box-shadow: 2px 2px grey, 4px 4px #8da683;
+}
+.link1{
+    background: #8da683;
+}
+.login_cell{
+    background-color: white;
+    padding: 3px
+}
+.login_text{
+    background-color: white;
+}
+.login_forgot{
+    background-color: white;
+}
+.login_input{
+    background-color: white;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.4) ;
+    border-radius: 5px;
+}
+.login_forgot{
+    background: white;
+    color: black;
+    position: relative;
+    text-decoration: none;
+}
+.login_forgot:after{
+    background-color: #8da683;
+    content: "";
+    display: block;
+    height: 4px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz-transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+.login_forgot:hover:after,
+.login_forgot:focus:after
+{
+    width: 100%;
+}
+.login_error{
+    background-color: white;
+    font-size: 13px;
+    color: red;
+}
+.login_reg{
+    background-color: #8da683;
+}

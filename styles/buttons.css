@@ -1,0 +1,76 @@
+.button{
+    height: 50px;
+    width: 50px;
+    border:1px solid grey ;
+    border-radius: 30px;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%);
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.button:hover{
+    height: 45px;
+    width: 45px;
+    border:1px solid grey ;
+    border-radius: 30px;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%);
+    text-align: center;
+    color: white;
+
+}
+.button:active{
+    height: 45px;
+    width: 45px;
+    border:1px solid grey ;
+    border-radius: 30px;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%);
+    text-align: center;
+    color: white; 
+    box-shadow: 2px 2px #4d4d4d, 4px 4px grey;
+}
+.knopkijs{
+    background: #8da683;
+    border: #8da683 solid 1px;
+    border-radius: 4px;
+    box-shadow: 0 7px 9px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    height: 6%;
+    width: 18%;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 2%;
+    margin-left: 5% ;
+}
+.knopkijs:hover {
+    box-shadow: 2px 2px grey, 4px 4px #8da683;
+    box-shadow: 0 7px 9px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    top: 4px;
+  }
+  .knopkijs:active{
+    box-shadow: 2px 2px grey, 4px 4px #8da683;
+    top: 4px;
+  }
+  .calc2
+  {
+    margin-top: 5%;
+    height: 700px;
+    width: auto;
+    
+  }
+  .page{
+    box-shadow: 0 7px 9px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 20px;
+    display: block;
+    position: absolute;
+    background: #e5decf;
+    width: 70%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    padding: 1%;
+  }

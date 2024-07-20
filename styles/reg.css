@@ -1,0 +1,88 @@
+.reg_form{
+    background: #e5decf;
+    border-radius: 20px;
+    padding: 2%;
+    height: 10%;
+    
+}
+.reg_table{
+    margin-left: 30%;
+    background: white;
+    border: 2px solid grey;
+    border-radius: 20px;
+    height: 500px;
+    width: 500px;
+    box-shadow: 0 7px 9px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    text-align: center;
+}
+.reg_tr_top{
+    background-color: white;
+    border-radius: 20% 20% 0% 0%;
+}
+.reg_tr{
+    background-color: white;
+    border-radius: 20% 20% 0% 0%;
+}
+.reg_tr_bottom{
+    background-color: white;
+    border-radius: 0% 0% 20% 20%;
+}
+.reg_td_left{
+    background-color: white;
+}
+.reg_td_right{
+    background-color: white;
+}
+.reg_td_bottomleft{
+    background-color: white;
+    border-radius: 20% 0% 0% 0%;
+}
+.reg_td_bottomright{
+    background-color: white;
+    border-radius: 0% 20% 0% 0%;
+}
+.reg_td_topleft{
+    background-color: white;
+    border-radius: 0% 0% 0% 20%;
+}
+.reg_td_topright{
+    background-color: white;
+    border-radius: 0% 0% 20% 0%;
+}
+.reg_text{
+background: white;
+}
+.reg_text_input{
+    text-align: center;
+    background: white;
+    padding: 4%;
+    border: 1px solid grey;
+    border-radius: 8px;
+    box-shadow: 0 7px 9px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.reg_text_error{
+    background: white;
+    color: red;
+    }
+.reg_button{
+      background-color: #8da683;
+      border: 1px solid #8da683;
+      padding: 4%;
+      border-radius: 20px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.4) ;
+    }
+.reg_button:hover{
+    background-color: #8da683;
+      border: 1px solid black;
+      padding: 4%;
+      border-radius: 20px;
+      box-shadow: 0 5px 20px grey;
+}
+.reg_button:active{
+    background-color: #8da683;
+      border: 1px solid black;
+      padding: 4%;
+      border-radius: 20px;
+      box-shadow: 0 5px 20px grey;
+      box-shadow: 2px 2px grey, 4px 4px #8da683;
+}
